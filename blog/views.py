@@ -1,3 +1,2 @@
-from django.shortcuts import render
-
-# Create your views here.
+from django.conf import settings
+print("ALLOWED_HOSTS:", settings.ALLOWED_HOSTS)
