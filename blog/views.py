@@ -1,2 +1,4 @@
-from django.conf import settings
-print("ALLOWED_HOSTS:", settings.ALLOWED_HOSTS)
+from django.shortcuts import render
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
+
